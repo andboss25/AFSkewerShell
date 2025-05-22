@@ -6,7 +6,7 @@ import libutilsSk.exeutils as SkExe
 def Execute():
     typeline = entry.get()
     entry.delete(0, 'end')
-    SkExe.ReadArgs(SkExe.ExecuteCMD(typeline),text_area)
+    # TODO: Completly rethink this
 
 root = tk.Tk()
 root.title("AFSkewerShell")
